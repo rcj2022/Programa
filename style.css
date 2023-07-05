@@ -9,7 +9,7 @@ body{
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: green;
+    background-color: rgb(62, 74, 85);
     padding: 15px;
     width: 50%;
     
@@ -22,6 +22,12 @@ body{
     border: none;
    
 }
+.dataLabel{
+    margin-left: 42px;
+}
+.dataOrador{
+    margin-left: 25px;
+}
 .presid{
     width: 500px;
     padding: 10px;
@@ -31,10 +37,32 @@ body{
    
     
 }
+.LabelOrador{
+    margin-left: 27px;
+}
+.LabelTema{
+    margin-left: 37px;
+}
 .data{
    
     padding: 10px;
     margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+}
+.tema{
+    width: 500px;
+    padding: 10px;
+    margin-left: 16px;
+    border-radius: 5px;
+    border: none;
+
+}
+.orac{
+    width: 500px;
+    padding: 10px;
+    margin-left: 16px;
+    border-radius: 5px;
     border: none;
 }
 .botao{
@@ -50,5 +78,20 @@ body{
     font-size: 15px;
     font-weight: 600;
 
+}
+legend{
+    border: 2px solid gray;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+}
+fieldset{
+    border: 2px solid gray;
+}
+h4{
+    text-align: center;
+}
+hr{
+    border: 2px solid white;
 }
 
