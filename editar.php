@@ -54,20 +54,19 @@ else
     <title>Atualizar Programação</title>
 </head>
 <style>
-    .atualizar{
+    #update{
         width: 200px;
-        margin-left: 200px;
-        padding: 8px;
+        margin-left: 250px;
+        padding: 15px;
         color: white;
         background-color: blue;
         border-radius: 5px;
         border: none;
         cursor: pointer;
-        
-
-        
-
+        border-radius: 15px;
+        font-size: 13pt;
     }
+  
 </style>
 <body>
 <div class="box">
