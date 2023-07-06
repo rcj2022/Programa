@@ -15,7 +15,8 @@ $leitor = $_POST['leitor'];
 $orac = $_POST['orador'];
 
 
-$result = mysqli_query($con,"INSERT INTO pub(mes, dataReg, presid, orador, tema, dirigente, leitor, orac) VALUES('$mes','$dataReg', '$presid', '$orador', '$tema','$dirigente', '$leitor', '$orac')");
+$result = mysqli_query($con,"INSERT INTO pub(mes, dataReg, presid, orador, tema, dirigente, leitor) VALUES('$mes','$dataReg', '$presid', '$orador', '$tema','$dirigente', '$leitor')");
+
 header('Location: index.php');
 }
 
@@ -37,6 +38,27 @@ header('Location: index.php');
     <title>Home</title>
    
   </head>
+  <style>
+    a{
+        color: white;
+        font-size: 15pt;
+        padding: 50px;
+        text-decoration: none;
+        outline: 10px;
+
+       
+    }
+    a:hover{
+        color: white;
+        text-decoration: underline;
+    }
+
+    #submit{
+        width: 300px;
+        margin-left: 200px;
+        font-size: 15pt;
+    }
+  </style>
 <body>
 
 <div class="box">
@@ -85,12 +107,14 @@ header('Location: index.php');
             </div>
             <br>
             <input type="submit" value="Cadastrar" name="submit" id="submit" class="botao">
+           
+            <br><br>
         </fieldset>
         <br>
        
     </form>
 
 </div>
-    
+<a href="index.php">Voltar</a>
 </body>
 </html>
