@@ -92,7 +92,7 @@
 <div class="m-5">
     <!-- tabela de dados -->
 <div class="table-responsive">
-    <table class="table  text-dark fs-6 table-striped caption-top table-sm align-middle  table-bordered">
+    <table class="table  text-light fs-6 caption-top table-sm align-middle  table-bordered">
     <thead class="text-light fs-5 bg-primary text-center">
         <tr>
         <th scope="col">Id</th>
@@ -151,7 +151,7 @@
     ?>
        
     </tbody>
-    <caption class="text-center text-light fs-5">PROGRAMAÇÃO DE FINAL DE SEMANA</caption>
+    <caption class="text-center text-light fs-5"><b>PROGRAMAÇÃO DE FINAL DE SEMANA</b></caption>
     </table>
     </div>
     

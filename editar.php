@@ -53,27 +53,36 @@ else
     <link rel="stylesheet" href="style.css">
     <title>Atualizar Programação</title>
 </head>
-<style>
-    #update{
-        width: 200px;
-        margin-left: 250px;
-        padding: 15px;
-        color: white;
-        background-color: blue;
+    <style>
+        #update{
+            width: 200px;
+            margin-left: 210px;
+            padding: 15px;
+            color: white;
+            background-color: blue;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            border-radius: 15px;
+            font-size: 13pt;
+        }
+        legend{
+        border: 2px solid gray;
+        padding: 10px;
+        text-align: center;
+        background-color: dodgerblue;
         border-radius: 5px;
-        border: none;
-        cursor: pointer;
-        border-radius: 15px;
-        font-size: 13pt;
     }
-  
+    fieldset{
+        border: 2px solid gray;
+    }
 </style>
 <body>
 <div class="box">
 
     <form action="update.php" method="POST">
         <fieldset>
-            <legend><b>Cadastro de Programação de fim de semana</b></legend>
+            <legend><b>Atualização de Programação de fim de semana</b></legend>
             <br>
             <div class ="inputMes">
             <label for="mes" class="LabelMes">Mês:</label> 
